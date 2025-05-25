@@ -1,0 +1,11 @@
+/* Highlight the selected menu item with black background and white text */
+.ant-menu-item-selected {
+  background-color: #000000 !important;
+  color: #ffffff !important;
+  border-radius: 8px;
+}
+
+.ant-menu-item-selected .anticon,
+.ant-menu-item-selected span {
+  color: #ffffff !important;
+}
